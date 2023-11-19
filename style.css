@@ -46,7 +46,7 @@ button {
 .tiny{
     color: #12FF46;
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: "Space Mono", sans-serif;
+    font-family: Space Mono, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
