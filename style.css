@@ -47,7 +47,7 @@ button {
 .tiny{
     color: #12FF46;
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: "Space Mono";
+    font-family: "Space Mono", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -131,7 +131,7 @@ button {
     border: none; 
     color: #000; /* Text color */
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Space Mono;
+    font-family: "Space Mono", sans-serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -209,7 +209,7 @@ button {
 
 .infoText {
   color: #FAFBFF;
-  font-family: Space Mono;
+  font-family: "Space Mono", sans-serif;
   font-weight: 700;
   font-size: 40px;
 }
@@ -343,7 +343,7 @@ select {
     text-decoration: none;
     color: #000;
     font-size: 50px;
-    font-family: Space mono;
+    font-family: "Space Mono", sans-serif;
 }
 
 .center a:hover {
