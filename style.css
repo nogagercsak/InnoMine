@@ -129,7 +129,7 @@ button {
     border: none; 
     color: #000; /* Text color */
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: 'Sometype Mono', monospace;
+    font-family: Space Mono;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
