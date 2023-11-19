@@ -1,8 +1,7 @@
 @font-face {
     font-family: 'Space Mono';
-    src: url(Space_Mono/SpaceMono-Bold.ttf) format('truetype')
+    src: url('SpaceMono-Bold.ttf') format('truetype');
 }
-
 
 
 body{
