@@ -1,0 +1,366 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url('DM_Sans/DMSans-VariableFont_opsz\,wght.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    src: url(Space_Mono/SpaceMono-Bold.ttf) format('truetype')
+}
+
+
+
+body{
+    background-color: #011E11;
+    padding: 0;
+    margin: 0;
+}
+
+/* HOMEPAGE STYLING */
+
+.info{
+    margin: 20px
+}
+
+.main-page{
+    margin: 50px; /* Add space around the body content */
+    height: 100vh;
+}
+
+button {
+    margin: 10px; /* Add space around the button element */
+    padding: 10px; /* Add space inside the button element */
+}
+
+#title{
+    width: 792px;
+    height: 158px;
+    flex-shrink: 0;
+
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: DM Sans;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.tiny{
+    color: #12FF46;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 30px; 
+    height: 100vh;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#InnoMine {
+    width: 75px;
+    height: 21px;
+    flex-shrink: 0;
+}
+
+#Homepage {
+    width: 96px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+
+.subTitle{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text{
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#why{
+    width: 1056px;
+    height: 133px;
+    flex-shrink: 0;
+}
+
+
+/* NAVPAGE STYLING */
+
+.button-desc, .nav-buttons {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-page {
+    height: 100vh;
+    background-color: #12FF46; /* Replace with your desired background color */
+    color: #fff; /* Text color, adjust as needed */
+    text-align: center; /* Center the content if needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-buttons-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.nav-buttons{
+    background-color: transparent; /* No background color */
+    border: none; 
+    color: #000; /* Text color */
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Sometype Mono', monospace;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    cursor: pointer; /* Add a pointer cursor on hover for better user experience */
+    text-align: left;
+    white-space: nowrap;
+}
+
+.nav-buttons:hover {
+    color: #505050;
+    transition: 0.5s;
+}
+
+.button-desc{
+    color: #545454;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: DM Sans;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    flex-shrink: 0;
+}
+
+
+.minerals {
+    margin-right: 150px; /* Adjust margin as needed */
+    width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+/* Ensure buttons and descriptions fit inside the image box */
+.nav-buttons-div {
+    max-width: 372px; /* Same as image width */
+}
+
+.button-desc-div {
+    max-width: 372px; /* Same as image width */
+    text-align: left;
+}
+
+#findNearby{
+    margin-bottom: 40px;
+}
+
+/* INFO PAGE STYLING */
+
+.main-title {
+  color: #FFF;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 5em;
+  font-family: DM Sans;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+#subTitle{
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.infoSubTitle {
+  color: #12FF46;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.infoText {
+  color: #FAFBFF;
+  font-family: Space Mono;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.fullInfoDiv {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.infoDiv {
+  text-align: center;
+  padding: 20px;
+  flex: 1;
+}
+
+#elements{
+    text-align: left;
+    margin-left: 7em;
+}
+
+#elementsText{
+    text-align: left;
+    margin-bottom: 3em;
+    margin-left: 5.2em;
+}
+
+#materials{
+    text-align: right;
+    margin-right: 7em;
+}
+
+#materialsText{
+    text-align: right;
+    margin-right: 5.2em;
+}
+
+.image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image-container img {
+  margin: 0;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#batteries{
+    margin-left: 10%;
+    margin-bottom: 50px;
+    max-width: 700px;
+}
+
+#trash{
+    margin-bottom: 50px;
+    max-width: 700px;
+}
+  
+
+
+/* RECYCLING CENTERS STYLING */
+
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Set the flex direction to column */
+    align-items: center; 
+}
+
+label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#ewasteCenters {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.select-city{
+    color: #12FF46;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: DM Sans;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.centers-list {
+    color:#FFF;
+    font-family: DM Sans;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.city-title {
+    font-weight: bold;
+}
+
+.centersInfo{
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.center a {
+    border-radius: 30px;
+    background-color: #12FF46;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 50px;
+    font-family: Space mono;
+}
+
+.center a:hover {
+    color: #12FF46;
+    background-color: #3a4b3d;
+    transition: 0.5s;
+}
+
+.no-data{
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: DM Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

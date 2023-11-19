@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>E-Waste Recycling Centers</title>
+</head>
+<body>
+    <div id="header">
+        <div class="tiny" id="InnoMine" >InnoMine</div>
+    </div>
+
+    <p class="main-title"> Find a Recycling Center Near You!</p>
+    <p class="centersInfo">Join us in making a positive impact on the environment by recycling your electronic waste responsibly.<br> Together, we can conserve precious minerals, reduce the demand for new resources, and build a sustainable future. Use our tools and resources to easily find the nearest e-waste recycling center and be a part of the solution.<br> Every small action counts toward a greener, healthier planet.</p>
+
+    <div class="container">
+        <label class="select-city" for="citySelect">Select a City:</label>
+        <select id="citySelect" onchange="loadEwasteCenters()">
+            <!-- Cities will be dynamically added here using JavaScript -->
+        </select>
+        <div id="ewasteCenters"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
