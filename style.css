@@ -32,7 +32,6 @@ button {
     width: 792px;
     height: 158px;
     flex-shrink: 0;
-
     color: #FFF;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: sans-serif;
@@ -45,7 +44,6 @@ button {
 
 .tiny{
     color: #12FF46;
-    font-feature-settings: 'clig' off, 'liga' off;
     font-family: Space Mono, sans-serif;
     font-size: 16px;
     font-style: normal;
